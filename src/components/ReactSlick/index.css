@@ -1,0 +1,67 @@
+.react-slick-link {
+  width: 30%;
+  text-decoration: none;
+  margin: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .react-slick-link {
+    margin: 5px;
+  }
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 94%;
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.slick-image {
+  width: 80%;
+  height: 120px;
+  border-radius: 6px;
+  margin-bottom: 0px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #334155;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.author-name {
+  color: #64748b;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .slick-image {
+    height: 220px;
+    width: 100%;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .author-name {
+    font-size: 17px;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #989898;
+}

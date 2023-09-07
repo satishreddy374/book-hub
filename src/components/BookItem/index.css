@@ -1,0 +1,130 @@
+.book-item-link {
+  margin-bottom: 6px;
+  padding-left: 0px;
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .book-item-link {
+    width: 384px;
+    margin-bottom: 6px;
+    margin-right: 4px;
+  }
+}
+
+.book-list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image {
+  height: 180px;
+  width: 160px;
+  border-radius: 6px;
+}
+
+.book-item-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    height: 170px;
+    width: 150px;
+    border-radius: 8px;
+  }
+}
+
+.book-item-title {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #334155;
+  margin-bottom: 0px;
+}
+
+.book-item-author {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .book-item-title {
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .book-item-author {
+    font-size: 16px;
+  }
+}
+
+.rating-text-and-rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.book-rating {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 500;
+  padding-right: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .book-rating {
+    font-size: 15px;
+    padding-right: 6px;
+  }
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.rating {
+  color: #334155;
+  font-weight: 400;
+  padding-left: 6px;
+}
+
+.book-status {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #475569;
+  margin-top: 0px;
+}
+
+.book-status-text {
+  color: #0284c7;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .book-status {
+    font-size: 15px;
+  }
+
+  .book-status-text {
+    font-weight: 600;
+    font-size: 15px;
+  }
+}

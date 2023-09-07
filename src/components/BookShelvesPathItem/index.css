@@ -1,0 +1,54 @@
+.path-item {
+  list-style-type: none;
+  margin: 5px;
+}
+
+.path-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  border: 1px solid #0284c7;
+  margin-bottom: 0px;
+  border-radius: 12px;
+  padding: 6px 12px 6px 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .path-item {
+    margin: 0px;
+  }
+
+  .path-text {
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    padding: 0px;
+  }
+}
+
+.active-shelf {
+  color: #ffffff;
+  font-weight: 500;
+  background-color: #0284c7;
+}
+
+.normal-shelf {
+  color: #0284c7;
+  font-weight: 400;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .active-shelf {
+    color: #0284c7;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: transparent;
+  }
+
+  .normal-shelf {
+    font-size: 18px;
+    color: #475569;
+  }
+}

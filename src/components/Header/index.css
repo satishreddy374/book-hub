@@ -1,0 +1,188 @@
+.nav-header-container {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-header-container {
+    flex-direction: row;
+    width: 100%;
+    max-width: 1490px;
+  }
+}
+
+.website-logo-and-logout-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  padding-left: 30px;
+  width: 140px;
+}
+
+.website-logo-image {
+  width: 120px;
+  height: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-container {
+    padding-left: 40px;
+    width: 160px;
+  }
+
+  .website-logo-image {
+    width: 150px;
+    height: 120px;
+  }
+}
+
+.hamburger-menu-container {
+  padding-right: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger-menu-container {
+    display: none;
+  }
+}
+
+.paths-list-container-desktop-view {
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+  width: 400px;
+}
+
+@media screen and (max-width: 768px) {
+  .paths-list-container-desktop-view {
+    display: none;
+  }
+}
+
+.list-item {
+  list-style-type: none;
+  width: 120px;
+}
+
+@media screen and (max-width: 768px) {
+  .list-item {
+    width: 90px;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: #64748b;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.path-text-button {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  border: none;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .path-text-button {
+    font-size: 18px;
+  }
+}
+
+.active-path {
+  color: #0284c7;
+}
+
+.normal-path {
+  color: #64748b;
+}
+
+.logout-button {
+  background-color: #0284c7;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .logout-button {
+    padding: 8px 16px 8px 16px;
+    font-size: 16px;
+    margin-left: 16px;
+    margin-top: 5px;
+  }
+}
+
+.paths-list-container-mobile-view {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .paths-list-container-mobile-view {
+    display: none;
+  }
+}
+
+.close-button {
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .close-button {
+    display: none;
+  }
+}
+
+.burger-button {
+  background-color: transparent;
+  border: none;
+}
+
+/*
+
+<li className="list-item">
+              <Link to="/">
+                <button
+                  type="button"
+                  className={`path-text-button ${activeHomePath}`}
+                  onClick={this.onChangePath}
+                  value="HOME"
+                >
+                  Home
+                </button>
+              </Link>
+            </li>
+            <li className="list-item">
+              <Link to="/shelf">
+                <button
+                  type="button"
+                  className={`path-text-button ${activeBookshelvesPath}`}
+                  onClick={this.onChangePath}
+                  value="BOOKSHELVES"
+                >
+                  Bookshelves
+                </button>
+              </Link>
+            </li>
+         
+*/
